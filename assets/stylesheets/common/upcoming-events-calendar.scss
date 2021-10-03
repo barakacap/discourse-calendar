@@ -1,6 +1,5 @@
 #upcoming-events-calendar {
-  background-color:red !important;
-    width:50vw !important;
+ 
   &.fc-unthemed {
     tbody,
     thead,
@@ -130,5 +129,14 @@
   .fc-list-item-add-to-calendar {
     color: var(--tertiary);
     font-size: $font-down-1;
+  }
+}
+@media screen and (min-width: 63.99em) {
+  #upcoming-events-calendar{
+    
+    width:50vw !important; 
+    margin-bottom:100px;
+    margin-left:auto;
+    margin-right:auto;
   }
 }
